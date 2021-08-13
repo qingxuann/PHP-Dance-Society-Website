@@ -1,0 +1,225 @@
+/* container */
+
+
+.wrapper{
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 500px;
+    padding: 25px;
+    margin: 25px auto 0;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+.wrapper h2{
+    color: #673ab7;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* end of container */
+
+/* button */
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+}
+  
+  .cash {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #865bd9;
+  }
+  
+  .cash:hover {
+    background-color: #7b56ba;
+    color: white;
+  }
+  
+  .online {
+    background-color: white; 
+    color: black; 
+    margin-right: 30px;
+    margin-left: 30px;
+    border: 2px solid #865bd9;
+  }
+  
+  .online:hover {
+    border: 2px solid #7b56ba;
+    background-color: #7b56ba;
+    color: white;
+  }
+
+  .active{
+    border: 2px solid #7b56ba;
+    background-color: #7b56ba;
+    color: white;
+  }
+/* end of button */
+
+.wrapper {    
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+span.error {
+    color:red;
+    font-size:10.5px;
+    font-family: "Comic Sans MS", "Comic Sans" , cursive;
+} 
+ 
+h2 {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h3 {
+    font-family: "Marker Felt", "fantasy";    padding-bottom: 5px;
+    color: #673ab7;
+    margin-top: 10px;
+}
+
+/* choose class */
+label {
+    font-weight: bold;
+    padding: 5px;  
+}
+
+span.hold {
+    font: 1em sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    color: grey;
+    padding: 15px;
+    
+}
+
+input, select {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px ;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+/* end of choose class */
+
+/* input details */
+.input-group{
+    
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+}
+
+.input-box{
+    width: 100%;
+    margin-right: 12px;
+    position: relative;
+}
+
+.input-box:last-child{
+    margin-right: 0;
+}
+
+.input-box select{
+    display: inline-block;
+    width: 50%;
+    padding: 12px;
+    background-color: #fcfcfc;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #c0bfbf;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.name{
+    padding: 14px 10px 14px 50px;
+    width: 100%;
+    background-color: #fcfcfc;
+    border: 1px solid #00000033;
+    outline: none;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    border-radius: 3px;
+    color: #333;
+}
+/* end of input details */
+
+/* hover over border design */
+.name:focus, .expiry:focus{
+    -webkit-box-shadow:0 0 2px 1px #7ed32180;
+    -moz-box-shadow:0 0 2px 1px #7ed32180;
+    box-shadow: 0 0 2px 1px #7ed32180;
+    border: 1px solid #7ed321;
+}
+
+/* card expiry mm yyyy */
+.expiry{
+    width: 41.5%;
+    padding: 14px;
+    text-align: center;
+    background-color: #fcfcfc;
+    transition: 0.3s;
+    outline: none;
+    border: 1px solid #c0bfbf;
+    border-radius: 3px;
+}
+
+/* submit button */
+.submit {
+    font-family: "Comic Sans MS", "Comic Sans" , cursive;
+    width: 100%;
+    background: transparent;
+    border: none;
+    background: #673ab7;
+    color: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.submit:hover{
+    padding-left: 25px;
+    opacity: 0.75;
+    right: 0;
+}
+
+ /* reset button */
+.reset {
+    font-family: "Comic Sans MS", "Comic Sans" , cursive;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #696969;
+    color: white;
+    font-size: 16px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.reset:hover{
+    padding-left: 25px;
+    opacity: 0.75;
+    right: 0;
+}
+
